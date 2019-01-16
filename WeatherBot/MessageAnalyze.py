@@ -18,5 +18,5 @@ while True:
             weather_response = requests.get('https://api.weather.gov/points/' + location_coords['x'] + ',' + location_coords['y'] + '/forecast').json()
             current_weather = weather_response['properties']['periods'][0]['detailedForecast']
             print('Weather for ' + location_name + ': \n' + current_weather)
-            break
+            request_params['since_id'] = message['id']
     time.sleep(5)
