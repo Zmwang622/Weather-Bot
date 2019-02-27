@@ -8,12 +8,12 @@ import time
 
 location_name = 'Pittsburgh, PA'
 location_coords = {'x': '40.45', 'y': '-79.96'}
-request_params = {'token': 'e61b4450fbcc0136c9d45e3bdb947d66'}
+request_params = {'token': ''}
 <<<<<<< HEAD
 #response = requests.get('https://api.groupme.com/v3/groups/YOUR_GROUP_ID/messages', params = request_params)
 while True:
     
-    response = requests.get('https://api.groupme.com/v3/groups/41952934/messages', params = request_params)
+    response = requests.get('', params = request_params)
     
     if(response.status_code == 200):
         response_messages = response.json()['response']['messages']
@@ -25,14 +25,14 @@ while True:
                 current_weather = weather_response['properties']['periods'][0]['detailedForecast']
                 to_send = 'Weather for ' + location_name + ': \n' + current_weather
                 
-                post_params = { 'bot_id': '71907246832da8d8db6f8d8dc5', 'text' : to_send}
+                post_params = { 'bot_id': '', 'text' : to_send}
                 requests.post('https://api.groupme.com/v3/bots/post', params = post_params)
                 request_params['since_id'] = message['id']
                 break
 =======
 
 while True:
-    response_messages = requests.get('https://api.groupme.com/v3/groups/41952934/messages', params = request_params).json()['response']['messages']
+    response_messages = requests.get('', params = request_params).json()['response']['messages']
     
     for message in response_messages:
         if(message['text'] == 'WeatherBot' or message['text']):
