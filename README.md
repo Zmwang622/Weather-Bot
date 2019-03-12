@@ -1,5 +1,5 @@
 # WeatherBot
-*"Necessity is the mother of invention" - English Proverb *
+*"Necessity is the mother of invention" - English Proverb*
 
 ## What's Going On
 WeatherBot was my pilot GroupMe bot when I wanted to created a bot that would remind my friends who had to clean the bathroom. It uses Python, GroupMe API, and National Weather Service API. 
@@ -25,4 +25,4 @@ It went over as well as one could imagine.
 
 <img src="https://github.com/Zmwang622/Weather-Bot/blob/master/ItsaMemeYouWouldn'tGetIt.PNG" height=80% width = 80%>
 
-* Hail to Pitt *
+*Hail to Pitt*
