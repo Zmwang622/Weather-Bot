@@ -9,7 +9,7 @@ I'm trying to get it to work on Heroku but am having trouble, still would like i
 Right now, a modified version of WeatherBot is being run on [PythonAnywhere.com](https://www.pythonanywhere.com/) and is used in my hall's floor group chat. My RA heard of my project and asked me to add WeatherBot to the floor group chat, so I did.
 <img src="https://github.com/Zmwang622/Weather-Bot/blob/master/GC.PNG" height=40% width = 40%>
 
-*Floor 5 Sutherland West for life*
+*Floor 5 Sutherland West for Life*
 ## The WeatherBot Saga
 There was once had a crazy [email chain](https://www.reddit.com/r/Pitt/comments/apchsx/top_ten_photos_taken_seconds_before_disaster/) that involved 10,000+ Pitt students continuously replying all. Eventually a riot broke out in the Quad where people began to spam "Sicko Mode" and "Mo Bamba", shoot Nerf bullets at each other, and throw snowballs at Pitt Police.
 
