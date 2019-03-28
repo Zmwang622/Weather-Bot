@@ -1,4 +1,5 @@
 <img src= "https://github.com/Zmwang622/Weather-Bot/blob/master/weatherBot.PNG" height=75% width = 75%>
+
 *"Necessity is the mother of invention" - English Proverb*
 
 ## What's Going On
